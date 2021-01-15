@@ -1,3 +1,5 @@
+import io from "socket.io-client";
+
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
